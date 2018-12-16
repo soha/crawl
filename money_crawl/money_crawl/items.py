@@ -11,4 +11,7 @@ import scrapy
 class MoneyCrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    title = scrapy.Field()
+    link = scrapy.Field()
+    pub_date = scrapy.Field()
     pass
